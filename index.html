@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <center>
+        <br><br>
+        <h1>Let's Give Us Your Information</h1>
+        <form action="#">
+            <p><input type="text" placeholder="Your First Name" required></p>
+            <p><input type="text" placeholder="Your Last Name" required></p>
+            <p><input type="number" placeholder="Your Phone Number" required></p>
+            <p><input type="email" placeholder="Your Email" required></p>
+            <div class="country">
+
+                <label for="country">
+                    <strong>Your Country</strong>
+                </label><br>
+
+                <select name="" id="country">
+                    <option value="0">Select</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">India</option>
+                    <option value="">Saudi Arabia</option>
+                </select>
+            </div>
+            <br>
+            <div class="gender">
+                
+                    <input type="radio" name="gender" id="male">
+                    <label for="male"><strong>Male</strong></label>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female"><strong>Female</strong></label>
+
+            </div>
+            <br>
+            <button type="submit"><b>Submit your Data</b></button>
+        </form>
+    </center>
+</body>
+
+</html>
